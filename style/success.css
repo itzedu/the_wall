@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;
+}
+body {
+	background-color: #F3EFE0;
+}
+
+#container {
+	background-color: white;
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 15px;
+}
+
+#header {
+	margin: 0 auto;
+	padding: 20px 80px 20px 100px;
+	color: white;
+	background-color: #3399FF;
+}
+
+span#underline {
+	text-decoration: underline;
+}
+
+#header h1, #header h2, #header a {
+	display: inline-block; vertical-align: bottom;
+	font-weight: lighter;
+}
+
+#header h2 {
+	margin-left: 420px;
+	padding-bottom: 4px;
+}
+
+#header a {
+	margin-left: 80px;
+	margin-bottom: 4px;
+	padding: 4px 10px;
+	background-color: #3399FF;
+	color: white;
+	border-radius: 5px;
+	text-decoration: none;
+	border: 1px solid white;
+}
+
+#main {
+	margin-top: 15px;
+	margin-left: 90px;
+}
+
+#main h2 {
+	font-weight: lighter;
+}
+
+#main textarea, #main input {
+	display: block;
+}
+
+#main textarea {
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 85%;
+	height: 80px;
+}
+
+#main input[type='submit'] , #messages input[type='submit'] {
+	padding: 9px 14px;
+	background-color: #3399FF;
+	border-radius: 5px;
+	border:none;
+	color: white;
+	margin-top: 10px;
+	margin-left: 640px;
+}
+
+#messages input[type='submit'] {
+	margin-left:520px;
+	background-color: #217C7E;
+}
+
+#messages {
+	margin: 30px 0 0 75px;
+}	
+#messages h2{
+	margin-bottom: 5px;
+	color: #3399FF;
+	font-weight: lighter;
+}
+
+#messages p {
+	width: 780px;
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+
+#comment{
+	margin-left: 100px;
+}
+
+#comment h3 {
+	font-weight: 400;
+	color: #217C7E;
+}
+
+
+h3#comment-title {
+	color: black;
+	margin-top: 10px;
+}
+
+#messages h4 {
+	font-weight: normal;
+	margin-bottom: 5px;
+}
+#messages textarea {
+	display: block;
+	width: 80%;
+	height: 60px;
+}
+

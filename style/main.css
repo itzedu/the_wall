@@ -1,0 +1,92 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Helvetica;
+}
+
+#container {
+	width: 960px;
+	margin: 0 auto;
+	height: 700px;
+	background-color: white;
+}
+
+body {
+	background-color: #F3EFE0;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 25px;
+	font-weight: lighter;
+}
+
+.box {
+	display: inline-block; vertical-align: top;
+}
+
+.box input {
+	float: right;
+}
+
+.box p{
+	padding: 5px;
+}
+
+.box h2 {
+	margin-left: 5px;
+	font-weight: 200;
+}
+
+#register, #login {
+	margin-top: 50px;
+	font-weight: 100;
+}
+#register {
+	margin-left: 130px;
+}
+
+#login {
+	margin-left: 60px;
+}
+
+#register, #login {
+	width: 300px;
+}
+
+#register form, #login form {
+	margin-top: 10px;
+}
+
+#register input[type='submit'], #login input[type='submit']{
+	padding: 6px 10px;
+	background-color: #3399FF;
+	border-radius: 5px;
+	border:none;
+	color: white;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+#login input[type='submit'] {
+	padding: 5px 15px;
+}
+
+.msg {
+	text-align: center;
+	padding: 3px;
+}
+
+#red {
+	background-color: salmon;
+}
+
+#green {
+	background-color: #217C7E;
+}
+
+img {
+	margin-top: 30px;
+	margin-left: 150px;
+	width: 600px;
+}
