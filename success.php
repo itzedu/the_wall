@@ -56,17 +56,16 @@
 					<h3><?= "{$comment['first_name']} {$comment['last_name']} - {$date1}" ?></h3>
 					<p><?= $comment['comment'] ?></p>
 <?php		} ?>
-				<form action="process.php?id=<?=$message['id']?>" method='post'>
-					<h3 id='comment-title'>Post a comment</h3>
-					<textarea name='comment'></textarea>
+				<form action="process.php" method='post'>
 					<input type='hidden' name='action' value='comment'>
+					<h3 id='comment-title'>Post a comment</h3>
+					<textarea name='comment-content'></textarea>
+					<input type='hidden' name='message_id' value="<?= $message['id'] ?>">
 					<input type='submit' value='Post a comment'>
 				</form>
-			</div>
-		</div>
-<?php } ?>
+			</div> <!-- end of comment -->
+		</div>	<!-- end of messages -->
+<?php } ?> 
 	</div> <!-- end of container  -->
-
-
 </body>
 </html>
